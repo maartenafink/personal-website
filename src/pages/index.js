@@ -1,11 +1,10 @@
 import React from "react"
+import Blur from "../components/blur"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image.js"
 import CenterLayout from "../components/centerlayout"
 import { Column, Row } from "simple-flexbox"
-import Blur from "../components/blur"
-import { Helmet } from "react-helmet"
 import SEO from "../components/seo"
 
 export default () => (

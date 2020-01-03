@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Maarten Afink`,
-    description: `Portfolio of Maarten Afink`,
+    description: `Personal website of Maarten Afink`,
     author: `Maarten Afink`,
   },
   plugins: [

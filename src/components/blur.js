@@ -1,5 +1,3 @@
-import React from 'react'
-import { useTrail, animated } from 'react-spring'
 import styled from "styled-components"
 import { space } from "styled-system"
 
