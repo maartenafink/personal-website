@@ -27,7 +27,7 @@ export default () => (
           <br></br> I’m a visually minded product designer based in Amsterdam.
           In my day to day life, I like to create digital products functional and
           simple to use. I’m currently working on the design system at{" "}
-          <a href="https://twitter.com/maartenafink">Lightspeed</a>, where I aim
+          <a href="https://www.lightspeedhq.com/" target="_blank" rel="noopener noreferrer">Lightspeed</a>, where I aim
           to make the life of designers <span>and</span> developers easier.
         </p>
         <p className="home">
@@ -38,16 +38,16 @@ export default () => (
         </p>
         <p className="about">
           Apart from trying to ditch all social media, I still use{" "}
-          <a href="https://twitter.com/maartenafink">Twitter</a> and{" "}
-          <a href="https://www.linkedin.com/in/maarten-afink-6245366b/">
+          <a href="https://twitter.com/maartenafink" target="_blank" rel="noopener noreferrer">Twitter</a> and{" "}
+          <a href="https://www.linkedin.com/in/maarten-afink-6245366b/" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>{" "}
           <span>(sometimes)</span>
         </p>
         <p className="about" style={{ marginTop: `20px` }}>
-          Built with <a href="https://twitter.com/maartenafink">Gatsby</a>.
-          Hosted on <a href="https://twitter.com/maartenafink">Netlify</a>. Open
-          sourced on <a href="https://twitter.com/maartenafink">Github</a>.
+          Built with <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">Gatsby</a>.
+          Hosted on <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a>. Open
+          sourced on <a href="https://github.com/maartenafink/personal-website" target="_blank" rel="noopener noreferrer">Github</a>.
         </p>
       </Column>
       <Column
