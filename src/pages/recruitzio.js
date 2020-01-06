@@ -14,12 +14,7 @@ export default () => (
       Recruitz.io
     </HeaderHome>
     <p className="home" style={{ marginBottom: `100px`, maxWidth: 1000 }}>
-      With a company history rich with acquisitions from the world over,
-      Lightspeed was ripe for a way to harmonize the divergent styles presented
-      in its products. The Flame design system is a collaborative living set of
-      multidisciplinary tools that helps Lightspeeders create unified
-      experiences for its customers.
-    </p>
+    Recruitz.io is a fully automated job advertising platform. During my time I was responsible for all the outgoing design work. In a small start-up environment I designed several solutions for their marketing output, back-end dashboard and the onboarding for new customers.    </p>
     <Row    style={{
           minWidth: 300,
           maxWidth: 1000,

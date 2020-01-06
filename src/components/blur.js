@@ -4,7 +4,7 @@ import { space } from "styled-system"
 const Blur = styled("div")(
     space,
     {
-        opacity: 0.60,
+      opacity: 0.60,
       textDecoration: "line-through",
       backgroundImage: "linear-gradient(225deg, #32C5FF 0%, #B620E0 51%, #F7B500 100%)",
       width: 360,
@@ -13,7 +13,7 @@ const Blur = styled("div")(
       filter: "blur(50px)",
       position: "absolute",
       zIndex: -1,
-      marginTop: -90,
+      marginTop: -75,
       animation: "blur 4s ease 0s infinite",
       marginLeft: -180,
       marginRight: "auto",

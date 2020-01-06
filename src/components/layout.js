@@ -53,7 +53,7 @@ export default ({ children }) => (
             }}
           >
             <ListLink to="/about/">About</ListLink>
-            <ListLink to="/about/">Journal</ListLink>
+            <ListLink to="/journal/">Journal</ListLink>
           </ul>
         </header>
         {children}

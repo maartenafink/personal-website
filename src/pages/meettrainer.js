@@ -14,11 +14,7 @@ export default () => (
       Meet Trainer
     </HeaderHome>
     <p className="home" style={{ marginBottom: `100px`, maxWidth: 1000 }}>
-      With a company history rich with acquisitions from the world over,
-      Lightspeed was ripe for a way to harmonize the divergent styles presented
-      in its products. The Flame design system is a collaborative living set of
-      multidisciplinary tools that helps Lightspeeders create unified
-      experiences for its customers.
+    The primary objective for this project was to build out a minimally viable design system. This would then be applied to iOS products and web. As a freelance designer I’ve designed a bold and appealing solution for their target audience.
     </p>
     <Row    style={{
           minWidth: 300,

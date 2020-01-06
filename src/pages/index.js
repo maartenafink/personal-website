@@ -45,9 +45,7 @@ export default () => (
           flexGrow={1}
         >
           <p className="home">
-            With a company history rich with acquisitions from the world over,
-            Lightspeed was ripe for a way to harmonize the divergent styles
-            presented in its products.
+          Flame is Lightspeed’s design system for creating smart, reliable and consistent user experiences.
           </p>
           <p className="home">View project →</p>
         </Column>
@@ -79,9 +77,7 @@ export default () => (
           flexGrow={1}
         >
           <p className="home">
-            With a company history rich with acquisitions from the world over,
-            Lightspeed was ripe for a way to harmonize the divergent styles
-            presented in its products.
+          A strength and conditioning coaching app. Reserved for professional or semi-professional athletes, to help and improve their performances.
           </p>
           <p className="home">View project →</p>
         </Column>
@@ -113,9 +109,7 @@ export default () => (
           flexGrow={1}
         >
           <p className="home">
-            With a company history rich with acquisitions from the world over,
-            Lightspeed was ripe for a way to harmonize the divergent styles
-            presented in its products.
+          Recruitz.io is a fully automated job advertising platform that helps corporates and staffing agencies to create and execute the perfect recruitment marketing campaign.
           </p>
           <p className="home">View project →</p>
         </Column>

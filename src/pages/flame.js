@@ -14,11 +14,7 @@ export default () => (
       Flame Design System
     </HeaderHome>
     <p className="home" style={{ marginBottom: `100px`, maxWidth: 1000 }}>
-      With a company history rich with acquisitions from the world over,
-      Lightspeed was ripe for a way to harmonize the divergent styles presented
-      in its products. The Flame design system is a collaborative living set of
-      multidisciplinary tools that helps Lightspeeders create unified
-      experiences for its customers.
+    Together with a dedicated team, I’ve contributed and build a design system. The system is currently used and adopted by all the web solutions in Lightspeed. It helps people design, write and build consistent user experiences.
     </p>
     <Row    style={{
           minWidth: 200,
