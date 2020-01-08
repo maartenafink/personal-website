@@ -29,6 +29,12 @@ module.exports = {
         trackingId: "UA-39629699-2",
       },
     },
+    {
+      resolve: '@mkitio/gatsby-theme-password-protect',
+      options: {
+        password: 'netraam123' // delete or `undefined` to disable password protection
+      }
+    }
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
