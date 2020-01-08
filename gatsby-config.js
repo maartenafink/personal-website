@@ -34,7 +34,7 @@ module.exports = {
       options: {
         password: 'netraam123' // delete or `undefined` to disable password protection
       }
-    }
+    },
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
