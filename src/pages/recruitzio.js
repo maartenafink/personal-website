@@ -68,12 +68,9 @@ export default () => (
     </CenterLayout>
     <Image filename="recruitz-item-3.jpg"></Image>
     <CenterLayout>
-      <h2 style={{ fontWeight: `800`, marginTop: `200px` }}>Conclusion</h2>
+      <h2 style={{ fontWeight: `800`, marginTop: `200px` }}>Personal notes</h2>
       <p className="item" style={{ marginBottom: `180px`, marginTop: `-10px` }}>
-        With a company history rich with acquisitions from the world over,
-        Lightspeed was ripe for a way to harmonize the divergent styles
-        presented in its products. The Flame design system is a collaborative
-        living set of multidisciplinary.
+      It has been an absolute pleasure to kick-off my career at Recruitz.io. Being responsible for all the outgoing design work as junior designer taught me a lot.
       </p>
     </CenterLayout>
     <Row>
