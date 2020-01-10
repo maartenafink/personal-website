@@ -73,9 +73,17 @@ export default () => (
         presented in its products. The Flame design system is a collaborative
         living set of multidisciplinary.
       </p>
-      <p className="item" style={{ marginBottom: `180px`, marginTop: `-10px` }}>
+      <p className="item" style={{ marginBottom: `150px`, marginTop: `-10px` }}>
         Design system documentation Source code on Github
       </p>
     </CenterLayout>
+    <Row>
+            <Column flexGrow={1} alignItems="flexstart">
+            <p className="item">← Previous Project<br></br><a href="/flame"rel="noopener noreferrer">Flame</a></p>
+            </Column>
+            <Column flexGrow={1} alignItems="flex-end" style={{ textAlign: `right`}}>
+            <p className="item" style={{ marginBottom: `150px`, marginTop: `-10px` }}>Next Project -><br></br><a href="/recruitzio"rel="noopener noreferrer">Recruitz.io</a></p>
+            </Column>
+          </Row>
   </Layout>
 )

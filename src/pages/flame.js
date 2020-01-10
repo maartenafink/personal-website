@@ -6,6 +6,7 @@ import CenterLayout from "../components/centerlayout"
 import { Column, Row } from "simple-flexbox"
 import Box from "../components/box"
 import SEO from "../components/seo"
+import { right } from "styled-system"
 
 export default () => (
   <Layout>
@@ -152,9 +153,17 @@ export default () => (
         presented in its products. The Flame design system is a collaborative
         living set of multidisciplinary.
       </p>
-      <p className="item" style={{ marginBottom: `180px`, marginTop: `-10px` }}>
-        Design system documentation Source code on Github
+      <p className="item" style={{ marginBottom: `150px`, marginTop: `-10px` }}>
+      <a href="https://github.com/lightspeed/flame" target="_blank" rel="noopener noreferrer">Source code on Github</a>
       </p>
     </CenterLayout>
+    <Row>
+            <Column flexGrow={1} alignItems="flexstart">
+            <p className="item">← Previous Project<br></br><a href="/recruitzio"rel="noopener noreferrer">Recruitz.io</a></p>
+            </Column>
+            <Column flexGrow={1} alignItems="flex-end" style={{ textAlign: `right`}}>
+            <p className="item" style={{ marginBottom: `150px`, marginTop: `-10px` }}>Next Project -><br></br><a href="/meettrainer"rel="noopener noreferrer">Meet Trainer</a></p>
+            </Column>
+          </Row>
   </Layout>
 )

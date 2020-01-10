@@ -76,5 +76,13 @@ export default () => (
         living set of multidisciplinary.
       </p>
     </CenterLayout>
+    <Row>
+            <Column flexGrow={1} alignItems="flexstart">
+            <p className="item">← Previous Project<br></br><a href="/meettrainer"rel="noopener noreferrer">Meet Trainer</a></p>
+            </Column>
+            <Column flexGrow={1} alignItems="flex-end" style={{ textAlign: `right`}}>
+            <p className="item" style={{ marginBottom: `150px`, marginTop: `-10px` }}>Next Project -><br></br><a href="/flame"rel="noopener noreferrer">Flame</a></p>
+            </Column>
+          </Row>
   </Layout>
 )
