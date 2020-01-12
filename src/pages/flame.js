@@ -6,7 +6,6 @@ import CenterLayout from "../components/centerlayout"
 import { Column, Row } from "simple-flexbox"
 import Box from "../components/box"
 import SEO from "../components/seo"
-import { right } from "styled-system"
 
 export default () => (
   <Layout>
