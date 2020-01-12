@@ -29,9 +29,17 @@ export default () => {
   const entries = data.allMdx.edges.map(({ node }) => ({
     title: node.frontmatter.title,
     excerpt: node.frontmatter.excerpt,
+    date: node.frontmatter.date,
     year: node.frontmatter.date.split(", ")[1],
     slug: node.fields.slug,
   }))
+
+  // Sort entries by date
+  entries.sort(function compare(a, b) {
+    var dateA = new Date(a.date);
+    var dateB = new Date(b.date);
+    return dateB - dateA;
+  });
 
   // Group journal entries by year
   const entriesByYear = entries.reduce((acc, entry) => {
@@ -39,6 +47,8 @@ export default () => {
     acc[entry.year].push(entry)
     return acc
   }, {})
+
+
 
   // Get blog post years
   const years = Object.keys(entriesByYear)
@@ -75,27 +85,27 @@ export default () => {
             </Box>
             <Box width={[1, 3 / 4]}>
               {entriesByYear[year].map(entry => (
-                <Box mb="72px">
-                  <Box mb="36px">
-                    <Text fontSize="24px" fontWeight={500}>
-                      {entry.title}
-                    </Text>
-                  </Box>
+                <Link to={entry.slug}>
+                  <Box mb="72px">
+                    <Box mb="36px">
+                      <Text fontSize="24px" pt="6px" fontWeight={500}>
+                        {entry.title}
+                      </Text>
+                    </Box>
 
-                  <Box mb="36px">
-                    <Text fontSize="21px" lineHeight="35px" color="#626d83">
-                      {entry.excerpt}
-                    </Text>
-                  </Box>
+                    <Box mb="36px">
+                      <Text fontSize="21px" lineHeight="35px" color="#626d83">
+                        {entry.excerpt}
+                      </Text>
+                    </Box>
 
-                  <Box>
-                    <Link to={entry.slug}>
+                    <Box>
                       <Text fontSize="21px" lineHeight="35px" color="#626d83">
                         Read more →
                       </Text>
-                    </Link>
+                    </Box>
                   </Box>
-                </Box>
+                </Link>
               ))}
             </Box>
           </Flex>
