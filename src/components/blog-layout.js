@@ -21,7 +21,7 @@ export default ({ children }) => (
         <Header />
 
         <Box maxWidth="960px" my="120px" mx="auto">
-          <Link to="/posts">
+          <Link to="/journal">
             <Text fontSize="21px" lineHeight="35px" color="#626d83">
               ← Go back to Journal
             </Text>
