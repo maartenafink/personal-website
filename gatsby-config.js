@@ -15,12 +15,19 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'pages',
+        name: "pages",
         path: `${__dirname}/src/pages`,
       },
-      
+    },
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        defaultLayouts: {
+          default: require.resolve("./src/components/blog-layout.js"),
+        }
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -30,10 +37,10 @@ module.exports = {
       },
     },
     {
-      resolve: '@mkitio/gatsby-theme-password-protect',
+      resolve: "@mkitio/gatsby-theme-password-protect",
       options: {
-        password: 'netraam123' // delete or `undefined` to disable password protection
-      }
+        password: "netraam123", // delete or `undefined` to disable password protection
+      },
     },
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-remark`,
@@ -51,15 +58,6 @@ module.exports = {
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
-    // {
-    //   resolve: "gatsby-plugin-typography",
-    //   options: {
-    //     pathToConfigModule: "src/utils/typography.js",
-    //   },
-    // },
     `gatsby-plugin-postcss`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
