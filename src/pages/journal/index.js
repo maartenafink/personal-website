@@ -59,7 +59,7 @@ export default () => {
     <CenteredLayout>
       <SEO title="Journal" />
       <Box mb="120px">
-        <Text fontSize="21px" lineHeight="35px" color="#626d83">
+        <Text fontSize={["18px", "21px"]} lineHeight={["30px", "35px"]} color="#626d83">
           Welcome to my Journal.
           <br />
           <br />

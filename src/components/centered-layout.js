@@ -1,7 +1,7 @@
 import React from "react"
 import styled, { ThemeProvider } from "styled-components"
 import { FlameTheme } from "@lightspeed/flame/Core"
-import { typography, space } from "styled-system"
+import { typography, space, marginBottom } from "styled-system"
 import { Box } from "rebass"
 import theme from "./theme"
 import Header from "./header"
