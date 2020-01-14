@@ -2,27 +2,26 @@ import styled from "styled-components"
 import { space } from "styled-system"
 
 const Blur = styled("div")(
-    space,
-    {
-      opacity: 0.60,
-      textDecoration: "line-through",
-      backgroundImage: "linear-gradient(225deg, #32C5FF 0%, #B620E0 51%, #F7B500 100%)",
-      width: 360,
-      height: 360,
-      borderRadius: "50%",
-      filter: "blur(50px)",
-      position: "absolute",
-      zIndex: -1,
-      marginTop: -75,
-      animation: "blur 4s ease 0s infinite",
-      marginLeft: -180,
-      marginRight: "auto",
-      left: "50%",
-    },
-    {
-
-    }
-  )
+  space,
+  {
+    opacity: 0.6,
+    textDecoration: "line-through",
+    backgroundImage:
+      "linear-gradient(225deg, #32C5FF 0%, #B620E0 51%, #F7B500 100%)",
+    width: 360,
+    height: 360,
+    borderRadius: "50%",
+    filter: "blur(50px)",
+    position: "absolute",
+    zIndex: -1,
+    marginTop: -75,
+    animation: "blur 4s ease 0s infinite",
+    marginLeft: -180,
+    marginRight: "auto",
+    left: "50%",
+  },
+  {}
+)
 
 // const fast = { tension: 50, friction: 1000 }
 // const slow = { mass: 50, tension: 1500, friction: 1500 }
@@ -47,4 +46,4 @@ const Blur = styled("div")(
 //     )
 //   }
 
-  export default Blur
+export default Blur

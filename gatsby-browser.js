@@ -5,5 +5,4 @@
  */
 
 import "./src/styles/layout.css"
-import 'typeface-inter/inter.css'
-
+import "typeface-inter/inter.css"

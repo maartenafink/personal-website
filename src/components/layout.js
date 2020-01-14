@@ -3,8 +3,8 @@ import styled, { ThemeProvider } from "styled-components"
 import { FlameTheme } from "@lightspeed/flame/Core"
 import { typography, space } from "styled-system"
 import theme from "./theme"
-import Header from './header';
-import Footer from './footer';
+import Header from "./header"
+import Footer from "./footer"
 
 const Wrapper = styled("div")(typography, space, {
   margin: `120px auto  3rem`,

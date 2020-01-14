@@ -9,8 +9,8 @@ import SEO from "../components/seo"
 
 export default () => (
   <Layout>
-    <SEO title="Designer" />
-    <CenterLayout style={{ maxWidth: 1400}}>
+    <SEO />
+    <CenterLayout style={{ maxWidth: 1400 }}>
       <Blur />
       <p
         className="header"
@@ -45,7 +45,8 @@ export default () => (
           flexGrow={1}
         >
           <p className="home">
-          Flame is Lightspeed’s design system for creating smart, reliable and consistent user experiences.
+            Flame is Lightspeed’s design system for creating smart, reliable and
+            consistent user experiences.
           </p>
           <p className="home">View project →</p>
         </Column>
@@ -59,13 +60,7 @@ export default () => (
         wrap
         justifyContent="space-between"
       >
-        <Column
-          style={{
-            minWidth: 200,
-            maxWidth: 450,
-          }}
-          flexGrow={1}
-        >
+        <Column style={{ minWidth: 200, maxWidth: 450 }} flexGrow={1}>
           <h2 style={{ fontWeight: `700` }}>Meet Trainer</h2>
         </Column>
         <Column
@@ -77,7 +72,9 @@ export default () => (
           flexGrow={1}
         >
           <p className="home">
-          A strength and conditioning coaching app. Reserved for professional or semi-professional athletes, to help and improve their performances.
+            A strength and conditioning coaching app. Reserved for professional
+            or semi-professional athletes, to help and improve their
+            performances.
           </p>
           <p className="home">View project →</p>
         </Column>
@@ -109,7 +106,9 @@ export default () => (
           flexGrow={1}
         >
           <p className="home">
-          Recruitz.io is a fully automated job advertising platform that helps corporates and staffing agencies to create and execute the perfect recruitment marketing campaign.
+            Recruitz.io is a fully automated job advertising platform that helps
+            corporates and staffing agencies to create and execute the perfect
+            recruitment marketing campaign.
           </p>
           <p className="home">View project →</p>
         </Column>

@@ -25,29 +25,70 @@ export default () => (
         <p className="home">
           Hey,<br></br>
           <br></br> I’m a visually minded product designer based in Amsterdam.
-          In my day to day life, I like to create digital products functional and
-          simple to use. I’m currently working on the design system at{" "}
-          <a href="https://www.lightspeedhq.com/" target="_blank" rel="noopener noreferrer">Lightspeed</a>, where I aim
-          to make the life of designers <span>and</span> developers easier.
+          In my day to day life, I like to create digital products functional
+          and simple to use. I’m currently working on the design system at{" "}
+          <a
+            href="https://www.lightspeedhq.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Lightspeed
+          </a>
+          , where I aim to make the life of designers <span>and</span>{" "}
+          developers easier.
         </p>
         <p className="home">
-        Other than designing stuff, I enjoy playing, sharing and finding new music. Have you already checked my Journal?   
+          Other than designing stuff, I enjoy playing, sharing and finding new
+          music. Have you already checked my Journal?
         </p>
         <p className="home">
           <a href="mailto:hey@maarten.im?Subject=Hey">Send me an email</a>
         </p>
         <p className="about">
           Apart from trying to ditch all social media, I still use{" "}
-          <a href="https://twitter.com/maartenafink" target="_blank" rel="noopener noreferrer">Twitter</a> and{" "}
-          <a href="https://www.linkedin.com/in/maarten-afink-6245366b/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://twitter.com/maartenafink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Twitter
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.linkedin.com/in/maarten-afink-6245366b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             LinkedIn
           </a>{" "}
           <span>(sometimes)</span>
         </p>
         <p className="about" style={{ marginTop: `20px` }}>
-          Built with <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">Gatsby</a>.
-          Hosted on <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a>. Open
-          sourced on <a href="https://github.com/maartenafink/personal-website" target="_blank" rel="noopener noreferrer">Github</a>.
+          Built with{" "}
+          <a
+            href="https://www.gatsbyjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Gatsby
+          </a>
+          . Hosted on{" "}
+          <a
+            href="https://www.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
+          . Open sourced on{" "}
+          <a
+            href="https://github.com/maartenafink/personal-website"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          .
         </p>
       </Column>
       <Column

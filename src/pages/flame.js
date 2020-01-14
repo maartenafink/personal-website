@@ -14,20 +14,38 @@ export default () => (
       Flame Design System
     </HeaderHome>
     <p className="home" style={{ marginBottom: `100px`, maxWidth: 1000 }}>
-    Together with a dedicated team, I’ve contributed and build a design system. The system is currently used and adopted by all the web solutions in Lightspeed. It helps people design, write and build consistent user experiences.
+      Together with a dedicated team, I’ve contributed and build a design
+      system. The system is currently used and adopted by all the web solutions
+      in Lightspeed. It helps people design, write and build consistent user
+      experiences.
     </p>
-    <Row    style={{
-          minWidth: 200,
-          maxWidth: 1000,
-          marginBottom: `100px`,
-        }}       alignItems="center"
+    <Row
+      style={{
+        minWidth: 200,
+        maxWidth: 1000,
+        marginBottom: `100px`,
+      }}
+      alignItems="center"
       vertical="center"
       wrap
-      justifyContent="space-between">
-      <Column><p className="projectheading">Company</p><p className="projectdescription">Lightspeed POS</p></Column>
-      <Column><p className="projectheading">Role</p><p className="projectdescription">Product Designer</p></Column>
-      <Column><p className="projectheading">Timeline</p><p className="projectdescription">2017 — Present</p></Column>
-      <Column><p className="projectheading">Status</p><p className="projectdescription">In active use</p></Column>
+      justifyContent="space-between"
+    >
+      <Column>
+        <p className="projectheading">Company</p>
+        <p className="projectdescription">Lightspeed POS</p>
+      </Column>
+      <Column>
+        <p className="projectheading">Role</p>
+        <p className="projectdescription">Product Designer</p>
+      </Column>
+      <Column>
+        <p className="projectheading">Timeline</p>
+        <p className="projectdescription">2017 — Present</p>
+      </Column>
+      <Column>
+        <p className="projectheading">Status</p>
+        <p className="projectdescription">In active use</p>
+      </Column>
     </Row>
     <Image filename="flame-homepage.jpg"></Image>
     <CenterLayout>
@@ -58,7 +76,6 @@ export default () => (
         flexGrow={1}
       >
         <>
-
           <Image filename="color-example.jpg" />
         </>
       </Column>
@@ -153,16 +170,35 @@ export default () => (
         living set of multidisciplinary.
       </p>
       <p className="item" style={{ marginBottom: `150px`, marginTop: `-10px` }}>
-      <a href="https://github.com/lightspeed/flame" target="_blank" rel="noopener noreferrer">Source code on Github</a>
+        <a
+          href="https://github.com/lightspeed/flame"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source code on Github
+        </a>
       </p>
     </CenterLayout>
     <Row>
-            <Column flexGrow={1} alignItems="flexstart">
-            <p className="item">← Previous Project<br></br><a href="/recruitzio"rel="noopener noreferrer">Recruitz.io</a></p>
-            </Column>
-            <Column flexGrow={1} alignItems="flex-end" style={{ textAlign: `right`}}>
-            <p className="item" style={{ marginBottom: `150px`, marginTop: `-10px` }}>Next Project -><br></br><a href="/meettrainer"rel="noopener noreferrer">Meet Trainer</a></p>
-            </Column>
-          </Row>
+      <Column flexGrow={1} alignItems="flexstart">
+        <p className="item">
+          ← Previous Project<br></br>
+          <a href="/recruitzio" rel="noopener noreferrer">
+            Recruitz.io
+          </a>
+        </p>
+      </Column>
+      <Column flexGrow={1} alignItems="flex-end" style={{ textAlign: `right` }}>
+        <p
+          className="item"
+          style={{ marginBottom: `150px`, marginTop: `-10px` }}
+        >
+          Next Project -><br></br>
+          <a href="/meettrainer" rel="noopener noreferrer">
+            Meet Trainer
+          </a>
+        </p>
+      </Column>
+    </Row>
   </Layout>
 )

@@ -73,12 +73,12 @@ dfn {
 }
 h1 {
   font-size: 30px;
-  color:#1B202B;
-  font-weight:400;
+  color: #1b202b;
+  font-weight: 400;
 }
 p {
-  font-size:18px;
-  color:#626D83;
+  font-size: 18px;
+  color: #626d83;
   line-height: 1.7;
 }
 mark {
@@ -254,7 +254,7 @@ p.about {
 
 p.projectheading {
   font-size: 14px;
-  color: #626D83;
+  color: #626d83;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
@@ -301,7 +301,12 @@ p.home span {
 .hooks-main > div {
   position: absolute;
   border-radius: 50%;
-  background-image: linear-gradient(225deg, #32C5FF 0%, #B620E0 51%, #F7B500 100%);
+  background-image: linear-gradient(
+    225deg,
+    #32c5ff 0%,
+    #b620e0 51%,
+    #f7b500 100%
+  );
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   opacity: 0.5;
   filter: blur(60px);
@@ -336,13 +341,11 @@ p.home span {
 }
 
 .hooks-main > div:nth-child(2)::after {
-
   width: 70px;
   height: 70px;
 }
 
 .hooks-main > div:nth-child(3)::after {
-
   width: 50px;
   height: 50px;
 }

@@ -36,10 +36,10 @@ export default () => {
 
   // Sort entries by date
   entries.sort(function compare(a, b) {
-    var dateA = new Date(a.date);
-    var dateB = new Date(b.date);
-    return dateB - dateA;
-  });
+    var dateA = new Date(a.date)
+    var dateB = new Date(b.date)
+    return dateB - dateA
+  })
 
   // Group journal entries by year
   const entriesByYear = entries.reduce((acc, entry) => {
@@ -47,8 +47,6 @@ export default () => {
     acc[entry.year].push(entry)
     return acc
   }, {})
-
-
 
   // Get blog post years
   const years = Object.keys(entriesByYear)
@@ -58,8 +56,12 @@ export default () => {
   return (
     <CenteredLayout>
       <SEO title="Journal" />
-      <Box mb="120px">
-        <Text fontSize={["18px", "21px"]} lineHeight={["30px", "35px"]} color="#626d83">
+      <Box mb="7.5rem">
+        <Text
+          fontSize={["1.125rem", "1.3125rem"]}
+          lineHeight={["1.875rem", "2.1875rem"]}
+          color="#626d83"
+        >
           Welcome to my Journal.
           <br />
           <br />
@@ -78,29 +80,37 @@ export default () => {
       <Box>
         {years.map(year => (
           <Flex flexWrap="wrap">
-            <Box width={[1, 1 / 4]} mb={["36px", 0]}>
-              <Text fontSize="30px" fontWeight={700}>
+            <Box width={[1, 1 / 4]} mb={["2.25rem", 0]}>
+              <Text fontSize="1.875rem" fontWeight={700}>
                 {year}
               </Text>
             </Box>
             <Box width={[1, 3 / 4]}>
               {entriesByYear[year].map(entry => (
                 <Link to={entry.slug}>
-                  <Box mb="72px">
-                    <Box mb="36px">
-                      <Text fontSize="24px" pt="6px" fontWeight={500}>
+                  <Box mb="4.5rem">
+                    <Box mb="2.25rem">
+                      <Text fontSize="1.5rem" pt="0.375rem" fontWeight={500}>
                         {entry.title}
                       </Text>
                     </Box>
 
-                    <Box mb="36px">
-                      <Text fontSize="21px" lineHeight="35px" color="#626d83">
+                    <Box mb="2.25rem">
+                      <Text
+                        fontSize="1.3125rem"
+                        lineHeight="2.1875rem"
+                        color="#626d83"
+                      >
                         {entry.excerpt}
                       </Text>
                     </Box>
 
                     <Box>
-                      <Text fontSize="21px" lineHeight="35px" color="#626d83">
+                      <Text
+                        fontSize="1.3125rem"
+                        lineHeight="2.1875rem"
+                        color="#626d83"
+                      >
                         Read more →
                       </Text>
                     </Box>

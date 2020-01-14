@@ -4,6 +4,9 @@ import { Link } from "gatsby"
 
 const HeaderWrapper = styled.header`
   margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `
 
 const HeaderTitle = styled.h1`
@@ -14,27 +17,52 @@ const HeaderTitle = styled.h1`
 
 const HeaderList = styled.ul`
   list-style: none;
-  float: right;
-  margin-top: 5px;
-  margin-right: -36px;
+  margin: 0;
+  paading: 0;
   font-size: 21px;
   border-bottom: none;
 `
 
-const HeaderListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `2.2rem` }}>
-    <Link to={props.to}>{props.children}</Link>
-  </li>
-)
+const HeaderListLink = props => {
+  const style = {
+    display: `inline-block`,
+  }
 
-export default () => (
-  <HeaderWrapper>
-    <Link to="/">
-      <HeaderTitle>Maarten.im</HeaderTitle>
-    </Link>
-    <HeaderList>
-      <HeaderListLink to="/about/">About</HeaderListLink>
-      <HeaderListLink to="/journal/">Journal</HeaderListLink>
-    </HeaderList>
-  </HeaderWrapper>
-)
+  if (!props.last) {
+    style.marginRight = `2.2rem`
+  }
+
+  return (
+    <li style={style}>
+      <Link to={props.to}>{props.children}</Link>
+    </li>
+  )
+}
+
+export default () => {
+  const menuItems = [
+    {
+      title: "About",
+      url: "/about/",
+    },
+    {
+      title: "Journal",
+      url: "/journal/",
+    },
+  ]
+
+  return (
+    <HeaderWrapper>
+      <Link to="/">
+        <HeaderTitle>Maarten.im</HeaderTitle>
+      </Link>
+      <HeaderList>
+        {menuItems.map(({ url, title }, i) => (
+          <HeaderListLink last={i === menuItems.length - 1} to={url}>
+            {title}
+          </HeaderListLink>
+        ))}
+      </HeaderList>
+    </HeaderWrapper>
+  )
+}
