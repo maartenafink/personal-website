@@ -10,7 +10,7 @@ import SEO from "../components/seo"
 export default () => (
   <Layout>
     <SEO />
-    <p className="header" style={{ marginTop: `200px`, marginBottom: `200px` }}>
+    <p className="header" style={{ marginTop: `170px`, marginBottom: `170px` }}>
       <a href="/about" rel="noopener noreferrer">
         Maarten Afink
       </a>{" "}
