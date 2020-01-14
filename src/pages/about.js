@@ -39,7 +39,11 @@ export default () => (
         </p>
         <p className="home">
           Other than designing stuff, I enjoy playing, sharing and finding new
-          music. Have you already checked my Journal?
+          music. Discover what I've been listening to on my{" "}
+          <a href="/journal" rel="noopener noreferrer">
+            Journal
+          </a>
+          .
         </p>
         <p className="home">
           <a href="mailto:hey@maarten.im?Subject=Hey">Send me an email</a>

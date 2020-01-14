@@ -65,8 +65,11 @@ export default () => {
           Welcome to my (listening) Journal.
           <br />
           <br />
-          This is where I share weekly findings in music. It’s one of my
-          passions to discover new music and share this with the world.
+          This is where I share weekly findings in music. It’s basically a recap
+          of what music I’ve discovered and been listening for the past week. I
+          like to keep finding new music and I use this platform to share this
+          with the world. The stuff you’ll find here is usually covering all
+          aspects of electronic music.
           <br />
           <br />
           Any suggestions?
