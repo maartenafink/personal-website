@@ -10,15 +10,13 @@ import SEO from "../components/seo"
 export default () => (
   <Layout>
     <SEO />
-    <CenterLayout style={{ maxWidth: 1400 }}>
-      <Blur />
-      <p
-        className="header"
-        style={{ marginTop: `260px`, marginBottom: `280px` }}
-      >
-        Designer focused on creating digital products
-      </p>
-    </CenterLayout>
+    <p className="header" style={{ marginTop: `200px`, marginBottom: `200px` }}>
+      <a href="/about" rel="noopener noreferrer">
+        Maarten Afink
+      </a>{" "}
+      is a designer focused on creating digital products.
+    </p>
+    <p className="home">Featured work ↓</p>
     <Link to="/flame/">
       <Image filename="flame-homepage.jpg"></Image>
       <Row

@@ -62,14 +62,11 @@ export default () => {
           lineHeight={["1.875rem", "2.1875rem"]}
           color="#626d83"
         >
-          Welcome to my Journal.
+          Welcome to my (listening) Journal.
           <br />
           <br />
-          The idea behind this journal is to look further than automated
-          playlists. These playlists are usually done by algorithms which you’ll
-          see on major streaming platforms. It’s my ambition to show you the
-          other side of music by handpicking weekly gems, and with the ability
-          to support these underrepresented artists.
+          This is where I share weekly findings in music. It’s one of my
+          passions to discover new music and share this with the world.
           <br />
           <br />
           Any suggestions?

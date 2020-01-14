@@ -237,13 +237,13 @@ p.item {
 }
 
 p.header {
-  font-size: 76px;
+  font-size: 74px;
   color: #1b202b;
   letter-spacing: 0;
-  text-align: center;
-  line-height: 110px;
-  max-width: 1070px;
-  margin: 0 auto;
+  text-align: left;
+  line-height: 89px;
+  max-width: 920px;
+  font-weight: bold;
 }
 
 p.about {
