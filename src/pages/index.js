@@ -73,13 +73,15 @@ export default () => (
                 and consistent user experiences.
               </Text>
             </Box>
-            <Text
-              fontSize={["1.125rem", "1.3125rem"]}
-              lineHeight={["1.875rem", "2.1875rem"]}
-              color="#626d83"
-            >
-              View project →{" "}
-            </Text>
+            <Box mb={["40px", "0px"]}>
+              <Text
+                fontSize={["1.125rem", "1.3125rem"]}
+                lineHeight={["1.875rem", "2.1875rem"]}
+                color="#626d83"
+              >
+                View project →{" "}
+              </Text>
+            </Box>
           </Column>
         </Row>
       </Box>
@@ -125,13 +127,15 @@ export default () => (
                 their performances.
               </Text>
             </Box>
-            <Text
-              fontSize={["1.125rem", "1.3125rem"]}
-              lineHeight={["1.875rem", "2.1875rem"]}
-              color="#626d83"
-            >
-              View project →{" "}
-            </Text>
+            <Box mb={["40px", "0px"]}>
+              <Text
+                fontSize={["1.125rem", "1.3125rem"]}
+                lineHeight={["1.875rem", "2.1875rem"]}
+                color="#626d83"
+              >
+                View project →{" "}
+              </Text>
+            </Box>
           </Column>
         </Row>
       </Box>
@@ -177,13 +181,15 @@ export default () => (
                 perfect recruitment marketing campaign.
               </Text>
             </Box>
-            <Text
-              fontSize={["1.125rem", "1.3125rem"]}
-              lineHeight={["1.875rem", "2.1875rem"]}
-              color="#626d83"
-            >
-              View project →{" "}
-            </Text>
+            <Box mb={["40px", "0px"]}>
+              <Text
+                fontSize={["1.125rem", "1.3125rem"]}
+                lineHeight={["1.875rem", "2.1875rem"]}
+                color="#626d83"
+              >
+                View project →{" "}
+              </Text>
+            </Box>
           </Column>
         </Row>
       </Box>

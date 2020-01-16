@@ -6,19 +6,35 @@ import CenterLayout from "../components/centerlayout"
 import { Column, Row } from "simple-flexbox"
 import Box from "../components/box"
 import SEO from "../components/seo"
+import { Flex, Text, Heading } from "rebass"
 
 export default () => (
   <Layout>
     <SEO title="Meet Trainer" />
-    <HeaderHome style={{ paddingTop: `50px`, textDecoration: `none` }}>
-      Meet Trainer
-    </HeaderHome>
-    <p className="home" style={{ marginBottom: `100px`, maxWidth: 1000 }}>
-      The primary objective for this project was to build out a minimally viable
-      design system. This would then be applied to iOS products and web. As a
-      freelance designer I’ve designed a bold and appealing solution for their
-      target audience.
-    </p>
+    <Box mb={["25px", "25px"]} mt={["100px", "160px"]}>
+      <Text
+        fontSize={["38px", "74px"]}
+        lineHeight={["50px", "89px"]}
+        color="#1b202b"
+        maxWidth="920px"
+        fontWeight="bold"
+      >
+        Meet Trainer
+      </Text>
+    </Box>
+    <Box mb={["60px", "100px"]}>
+      <Text
+        fontSize={["1.125rem", "1.3125rem"]}
+        lineHeight={["1.875rem", "2.1875rem"]}
+        color="#626d83"
+        maxWidth="1000px"
+      >
+        The primary objective for this project was to build out a minimally
+        viable design system. This would then be applied to iOS products and
+        web. As a freelance designer I’ve designed a bold and appealing solution
+        for their target audience.
+      </Text>
+    </Box>
     <Row
       style={{
         minWidth: 300,
@@ -47,22 +63,22 @@ export default () => (
         <p className="projectdescription">In development</p>
       </Column>
     </Row>
-    <Box marginBottom="80px">
+    <Box mb={["20px", "80px"]}>
       <Image filename="meet-trainer-homepage.jpg"></Image>
     </Box>
-    <Box marginBottom="80px">
+    <Box mb={["20px", "80px"]}>
       <Image filename="meet-trainer-design-system.jpg"></Image>
     </Box>
-    <Box marginBottom="80px">
+    <Box mb={["20px", "80px"]}>
       <Image filename="meet-trainer-item-1.jpg"></Image>
     </Box>
-    <Box marginBottom="80px">
+    <Box mb={["20px", "80px"]}>
       <Image filename="meet-trainer-item-2.jpg"></Image>
     </Box>
-    <Box marginBottom="80px">
+    <Box mb={["20px", "80px"]}>
       <Image filename="meet-trainer-item-3.jpg"></Image>
     </Box>
-    <Box marginBottom="80px">
+    <Box mb={["80px", "80px"]}>
       <Image filename="meet-trainer-item-4.jpg"></Image>
     </Box>
     <Row>
