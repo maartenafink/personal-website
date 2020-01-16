@@ -3,6 +3,7 @@ import { Column, Row } from "simple-flexbox"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import { Box, Flex, Text, Heading } from "rebass"
 
 export default () => (
   <Layout>
@@ -22,32 +23,50 @@ export default () => (
         }}
         flexGrow={1}
       >
-        <p className="home">
-          Hey,<br></br>
-          <br></br> I’m a visually minded product designer based in Amsterdam.
-          In my day to day life, I like to create digital products functional
-          and simple to use. I’m currently working on the design system at{" "}
-          <a
-            href="https://www.lightspeedhq.com/"
-            target="_blank"
-            rel="noopener noreferrer"
+        <Box mb="40px">
+          <Text
+            fontSize={["1.125rem", "1.3125rem"]}
+            lineHeight={["1.875rem", "2.1875rem"]}
+            color="#626d83"
           >
-            Lightspeed
-          </a>
-          , where I aim to make the life of designers <span>and</span>{" "}
-          developers easier.
-        </p>
-        <p className="home">
-          Other than designing stuff, I enjoy playing, sharing and finding new
-          music. Discover what I've been listening to on my{" "}
-          <a href="/journal" rel="noopener noreferrer">
-            Journal
-          </a>
-          .
-        </p>
-        <p className="home">
-          <a href="mailto:hey@maarten.im?Subject=Hey">Send me an email</a>
-        </p>
+            Hey,<br></br>
+            <br></br> I’m a visually minded product designer based in Amsterdam.
+            In my day to day life, I like to create digital products functional
+            and simple to use. I’m currently working on the design system at{" "}
+            <a
+              href="https://www.lightspeedhq.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Lightspeed
+            </a>
+            , where I aim to make the life of designers <span>and</span>{" "}
+            developers easier.
+          </Text>
+        </Box>
+        <Box mb="40px">
+          <Text
+            fontSize={["1.125rem", "1.3125rem"]}
+            lineHeight={["1.875rem", "2.1875rem"]}
+            color="#626d83"
+          >
+            Other than designing stuff, I enjoy playing, sharing and finding new
+            music. Discover what I've been listening to on my{" "}
+            <a href="/journal" rel="noopener noreferrer">
+              Journal
+            </a>
+            .
+          </Text>
+        </Box>
+        <Box mb="15px">
+          <Text
+            fontSize={["1.125rem", "1.3125rem"]}
+            lineHeight={["1.875rem", "2.1875rem"]}
+            color="#626d83"
+          >
+            <a href="mailto:hey@maarten.im?Subject=Hey">Send me an email</a>
+          </Text>
+        </Box>
         <p className="about">
           Apart from trying to ditch all social media, I still use{" "}
           <a
