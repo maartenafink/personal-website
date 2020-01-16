@@ -246,6 +246,10 @@ p.header {
   font-weight: bold;
 }
 
+p.header span {
+  color: #626d83;
+}
+
 p.about {
   font-size: 16px;
   color: #868e9d;

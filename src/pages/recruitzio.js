@@ -53,10 +53,8 @@ export default () => (
         Marketing website
       </h2>
       <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
-        With a company history rich with acquisitions from the world over,
-        Lightspeed was ripe for a way to harmonize the divergent styles
-        presented in its products. The Flame design system is a collaborative
-        living set of multidisciplinary.
+        To attract new customers a marketing website was designed. It’s a
+        vibrant and bold website to draw attention towards possible customers.
       </p>
     </CenterLayout>
     <Image filename="recruitz-item-1.jpg"></Image>
@@ -65,10 +63,9 @@ export default () => (
         Campaign dashboard
       </h2>
       <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
-        With a company history rich with acquisitions from the world over,
-        Lightspeed was ripe for a way to harmonize the divergent styles
-        presented in its products. The Flame design system is a collaborative
-        living set of multidisciplinary.
+        Customers can easily track their best performing campaigns via a custom
+        build dashboard. Statistics like clicks, applies and reach are easily
+        scalable on this view.
       </p>
     </CenterLayout>
     <Box marginBottom="80px">
@@ -77,10 +74,10 @@ export default () => (
     <CenterLayout>
       <h2 style={{ fontWeight: `800`, marginTop: `200px` }}>Onboarding</h2>
       <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
-        With a company history rich with acquisitions from the world over,
-        Lightspeed was ripe for a way to harmonize the divergent styles
-        presented in its products. The Flame design system is a collaborative
-        living set of multidisciplinary.
+        New customers will follow a custom-designed onboarding with the best
+        possible experience. In a couple of steps, they are set-up with a custom
+        campaign. They're now ready to find the best candidate for their
+        vacancy.
       </p>
     </CenterLayout>
     <Image filename="recruitz-item-3.jpg"></Image>

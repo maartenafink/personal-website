@@ -53,10 +53,9 @@ export default () => (
         A design system for every web product
       </h2>
       <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
-        With a company history rich with acquisitions from the world over,
-        Lightspeed was ripe for a way to harmonize the divergent styles
-        presented in its products. The Flame design system is a collaborative
-        living set of multidisciplinary.
+        The design system supports every web product inside the Lightspeed
+        ecosystem. Customers can rapidly build out products with the help of a
+        Sketch template, React components and documentation.
       </p>
     </CenterLayout>
     <Image filename="flame-design-system-overview.jpg"></Image>
@@ -90,9 +89,9 @@ export default () => (
           Vibrant and accessible color system
         </h2>
         <p className="item" style={{ marginTop: `-10px` }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id
-          dignissim nisl, mattis pellentesque justo. In tortor dui, interdum sit
-          amet gravida in, semper tincidunt erat.
+          A custom color palette has been created to support the system. It’s a
+          vibrant and accessible palette to enhance the user experience across
+          the web products. 
         </p>
       </Column>
     </Row>
@@ -102,10 +101,9 @@ export default () => (
         Components into patterns
       </h2>
       <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
-        With a company history rich with acquisitions from the world over,
-        Lightspeed was ripe for a way to harmonize the divergent styles
-        presented in its products. The Flame design system is a collaborative
-        living set of multidisciplinary.
+        Small bits of components can be built out into complex patterns. These
+        patterns are used to shape out complex layouts and serve all the needs
+        of users.
       </p>
     </CenterLayout>
     <Image filename="table-pattern.png"></Image>
@@ -114,10 +112,9 @@ export default () => (
         Design system documentation
       </h2>
       <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
-        With a company history rich with acquisitions from the world over,
-        Lightspeed was ripe for a way to harmonize the divergent styles
-        presented in its products. The Flame design system is a collaborative
-        living set of multidisciplinary.
+        A custom website was built to serve all the documentation for the
+        system. It's a dedicated space for all the designers and developers to
+        find out how to create smart, reliable and consistent user experiences. 
       </p>
     </CenterLayout>
     <Box marginBottom="80px">
@@ -129,45 +126,12 @@ export default () => (
     <Box marginBottom="80px">
       <Image filename="design-system-documentation-3.jpg"></Image>
     </Box>
-    <Row
-      style={{ marginTop: `200px`, marginBottom: `100px` }}
-      alignItems="center"
-      vertical="center"
-      wrap
-      justifyContent="space-between"
-    >
-      <Column
-        style={{
-          minWidth: 200,
-          maxWidth: 450,
-        }}
-        flexGrow={1}
-      >
-        <h2 style={{ fontWeight: `800` }}>Remote, but connecting team</h2>
-        <p className="item" style={{ marginTop: `-10px` }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id
-          dignissim nisl, mattis pellentesque justo. In tortor dui, interdum sit
-          amet gravida in, semper tincidunt erat.
-        </p>
-      </Column>
-      <Column
-        style={{
-          minWidth: 646,
-          minHeight: 320,
-          maxWidth: 400,
-        }}
-        flexGrow={1}
-      >
-        <Image filename="remote-photo.jpg"></Image>
-      </Column>
-    </Row>
     <CenterLayout>
       <h2 style={{ fontWeight: `800`, marginTop: `200px` }}>Open Source</h2>
       <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
-        With a company history rich with acquisitions from the world over,
-        Lightspeed was ripe for a way to harmonize the divergent styles
-        presented in its products. The Flame design system is a collaborative
-        living set of multidisciplinary.
+        Since September 2019 the React components of the system have been open
+        sourced on Github. It was a big step into building out an open source
+        mentality in Lightspeed, as Flame was the first project to do so.
       </p>
       <p className="item" style={{ marginBottom: `150px`, marginTop: `-10px` }}>
         <a

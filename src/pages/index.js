@@ -1,14 +1,13 @@
 import React from "react"
-import Blur from "../components/blur"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image.js"
-import CenterLayout from "../components/centerlayout"
 import { Column, Row } from "simple-flexbox"
 import SEO from "../components/seo"
+import { space } from "styled-system"
 
 export default () => (
-  <Layout>
+  <Layout m={["120px auto  3rem", "80px auto  3rem"]}>
     <SEO />
     <p className="header" style={{ marginTop: `170px`, marginBottom: `170px` }}>
       <a href="/about" rel="noopener noreferrer">

@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import { typography, space } from "styled-system"
 
 const HeaderWrapper = styled.header`
   margin-bottom: 100px;
@@ -9,11 +10,11 @@ const HeaderWrapper = styled.header`
   align-items: center;
 `
 
-const HeaderTitle = styled.h1`
-  display: inline;
-  font-size: 21px;
-  font-weight: 400;
-`
+const HeaderTitle = styled("h1")(typography, space, {
+  display: `inline`,
+  fontSize: `21px`,
+  fontWeight: `400`,
+})
 
 const HeaderList = styled.ul`
   list-style: none;
@@ -52,9 +53,9 @@ export default () => {
   ]
 
   return (
-    <HeaderWrapper>
+    <HeaderWrapper fontSize={["18px", "21px"]}>
       <Link to="/">
-        <HeaderTitle>Maarten.im</HeaderTitle>
+        <HeaderTitle fontSize={["18px", "21px"]}>Maarten.im</HeaderTitle>
       </Link>
       <HeaderList>
         {menuItems.map(({ url, title }, i) => (

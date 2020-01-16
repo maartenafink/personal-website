@@ -47,30 +47,12 @@ export default () => (
         <p className="projectdescription">In development</p>
       </Column>
     </Row>
-    <Image filename="meet-trainer-homepage.jpg"></Image>
-    <CenterLayout>
-      <h2 style={{ fontWeight: `800`, marginTop: `200px` }}>
-        A design system for every web product
-      </h2>
-      <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
-        With a company history rich with acquisitions from the world over,
-        Lightspeed was ripe for a way to harmonize the divergent styles
-        presented in its products. The Flame design system is a collaborative
-        living set of multidisciplinary.
-      </p>
-    </CenterLayout>
-    <Image filename="meet-trainer-design-system.jpg"></Image>
-    <CenterLayout>
-      <h2 style={{ fontWeight: `800`, marginTop: `200px` }}>
-        Design system documentation
-      </h2>
-      <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
-        With a company history rich with acquisitions from the world over,
-        Lightspeed was ripe for a way to harmonize the divergent styles
-        presented in its products. The Flame design system is a collaborative
-        living set of multidisciplinary.
-      </p>
-    </CenterLayout>
+    <Box marginBottom="80px">
+      <Image filename="meet-trainer-homepage.jpg"></Image>
+    </Box>
+    <Box marginBottom="80px">
+      <Image filename="meet-trainer-design-system.jpg"></Image>
+    </Box>
     <Box marginBottom="80px">
       <Image filename="meet-trainer-item-1.jpg"></Image>
     </Box>
@@ -83,18 +65,6 @@ export default () => (
     <Box marginBottom="80px">
       <Image filename="meet-trainer-item-4.jpg"></Image>
     </Box>
-    <CenterLayout>
-      <h2 style={{ fontWeight: `800`, marginTop: `200px` }}>Open Source</h2>
-      <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
-        With a company history rich with acquisitions from the world over,
-        Lightspeed was ripe for a way to harmonize the divergent styles
-        presented in its products. The Flame design system is a collaborative
-        living set of multidisciplinary.
-      </p>
-      <p className="item" style={{ marginBottom: `150px`, marginTop: `-10px` }}>
-        Design system documentation Source code on Github
-      </p>
-    </CenterLayout>
     <Row>
       <Column flexGrow={1} alignItems="flexstart">
         <p className="item">
