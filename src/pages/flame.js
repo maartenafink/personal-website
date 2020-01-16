@@ -6,19 +6,35 @@ import CenterLayout from "../components/centerlayout"
 import { Column, Row } from "simple-flexbox"
 import Box from "../components/box"
 import SEO from "../components/seo"
+import { Flex, Text, Heading } from "rebass"
 
 export default () => (
   <Layout>
     <SEO title="Flame" />
-    <HeaderHome style={{ paddingTop: `50px`, textDecoration: `none` }}>
-      Flame Design System
-    </HeaderHome>
-    <p className="home" style={{ marginBottom: `100px`, maxWidth: 1000 }}>
-      Together with a dedicated team, I’ve contributed and build a design
-      system. The system is currently used and adopted by all the web solutions
-      in Lightspeed. It helps people design, write and build consistent user
-      experiences.
-    </p>
+    <Box mb={["25px", "25px"]} mt={["100px", "160px"]}>
+      <Text
+        fontSize={["38px", "74px"]}
+        lineHeight={["50px", "89px"]}
+        color="#1b202b"
+        maxWidth="920px"
+        fontWeight="bold"
+      >
+        Flame Design System
+      </Text>
+    </Box>
+    <Box mb={["60px", "100px"]}>
+      <Text
+        fontSize={["1.125rem", "1.3125rem"]}
+        lineHeight={["1.875rem", "2.1875rem"]}
+        color="#626d83"
+        maxWidth="1000px"
+      >
+        Together with a dedicated team, I’ve contributed and build a design
+        system. The system is currently used and adopted by all the web
+        solutions in Lightspeed. It helps people design, write and build
+        consistent user experiences.
+      </Text>
+    </Box>
     <Row
       style={{
         minWidth: 200,
@@ -49,14 +65,27 @@ export default () => (
     </Row>
     <Image filename="flame-homepage.jpg"></Image>
     <CenterLayout>
-      <h2 style={{ fontWeight: `800`, marginTop: `200px` }}>
-        A design system for every web product
-      </h2>
-      <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
+      <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
+        <Text
+          fontSize={["30px", "40px"]}
+          lineHeight={["42px", "89px"]}
+          color="#1b202b"
+          maxWidth="920px"
+          fontWeight="bold"
+        >
+          Design system for every web product
+        </Text>
+      </Box>
+      <Text
+        fontSize={["1.125rem", "1.3125rem"]}
+        lineHeight={["1.875rem", "2.1875rem"]}
+        color="#626d83"
+        maxWidth="1000px"
+      >
         The design system supports every web product inside the Lightspeed
         ecosystem. Customers can rapidly build out products with the help of a
         Sketch template, React components and documentation.
-      </p>
+      </Text>
     </CenterLayout>
     <Image filename="flame-design-system-overview.jpg"></Image>
     <Row
@@ -85,63 +114,126 @@ export default () => (
         }}
         flexGrow={1}
       >
-        <h2 style={{ fontWeight: `800` }}>
-          Vibrant and accessible color system
-        </h2>
-        <p className="item" style={{ marginTop: `-10px` }}>
+        <Box mb={["15px", "15px"]} mt={["100px", "0px"]}>
+          <Text
+            fontSize={["30px", "40px"]}
+            lineHeight={["42px", "52px"]}
+            color="#1b202b"
+            maxWidth="920px"
+            fontWeight="bold"
+            textAlign={["center", "left"]}
+          >
+            Vibrant and accessible color system
+          </Text>
+        </Box>
+        <Text
+          fontSize={["1.125rem", "1.3125rem"]}
+          lineHeight={["1.875rem", "2.1875rem"]}
+          color="#626d83"
+          maxWidth="1000px"
+          textAlign={["center", "left"]}
+        >
           A custom color palette has been created to support the system. It’s a
           vibrant and accessible palette to enhance the user experience across
-          the web products. 
-        </p>
+          the web products.
+        </Text>
       </Column>
     </Row>
     <Image filename="colors.jpg"></Image>
     <CenterLayout>
-      <h2 style={{ fontWeight: `800`, marginTop: `200px` }}>
-        Components into patterns
-      </h2>
-      <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
+      <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
+        <Text
+          fontSize={["30px", "40px"]}
+          lineHeight={["42px", "89px"]}
+          color="#1b202b"
+          maxWidth="920px"
+          fontWeight="bold"
+        >
+          Components into patterns
+        </Text>
+      </Box>
+      <Text
+        fontSize={["1.125rem", "1.3125rem"]}
+        lineHeight={["1.875rem", "2.1875rem"]}
+        color="#626d83"
+        maxWidth="1000px"
+      >
         Small bits of components can be built out into complex patterns. These
         patterns are used to shape out complex layouts and serve all the needs
         of users.
-      </p>
+      </Text>
     </CenterLayout>
     <Image filename="table-pattern.png"></Image>
     <CenterLayout>
-      <h2 style={{ fontWeight: `800`, marginTop: `200px` }}>
-        Design system documentation
-      </h2>
-      <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
+      <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
+        <Text
+          fontSize={["30px", "40px"]}
+          lineHeight={["42px", "89px"]}
+          color="#1b202b"
+          maxWidth="920px"
+          fontWeight="bold"
+        >
+          Design system documentation
+        </Text>
+      </Box>
+      <Text
+        fontSize={["1.125rem", "1.3125rem"]}
+        lineHeight={["1.875rem", "2.1875rem"]}
+        color="#626d83"
+        maxWidth="1000px"
+      >
         A custom website was built to serve all the documentation for the
         system. It's a dedicated space for all the designers and developers to
-        find out how to create smart, reliable and consistent user experiences. 
-      </p>
+        find out how to create smart, reliable and consistent user experiences.
+      </Text>
     </CenterLayout>
-    <Box marginBottom="80px">
+    <Box mb={["20px", "80px"]}>
       <Image filename="design-system-documentation-1.jpg"></Image>
     </Box>
-    <Box marginBottom="80px">
+    <Box mb={["20px", "80px"]}>
       <Image filename="design-system-documentation-2.jpg"></Image>
     </Box>
-    <Box marginBottom="80px">
+    <Box mb={["20px", "80px"]}>
       <Image filename="design-system-documentation-3.jpg"></Image>
     </Box>
     <CenterLayout>
-      <h2 style={{ fontWeight: `800`, marginTop: `200px` }}>Open Source</h2>
-      <p className="item" style={{ marginBottom: `45px`, marginTop: `-10px` }}>
-        Since September 2019 the React components of the system have been open
-        sourced on Github. It was a big step into building out an open source
-        mentality in Lightspeed, as Flame was the first project to do so.
-      </p>
-      <p className="item" style={{ marginBottom: `150px`, marginTop: `-10px` }}>
+      <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
+        <Text
+          fontSize={["30px", "40px"]}
+          lineHeight={["42px", "89px"]}
+          color="#1b202b"
+          maxWidth="920px"
+          fontWeight="bold"
+        >
+          Open source
+        </Text>
+      </Box>
+      <Box mb={["20px", "40px"]}>
+        <Text
+          fontSize={["1.125rem", "1.3125rem"]}
+          lineHeight={["1.875rem", "2.1875rem"]}
+          color="#626d83"
+          maxWidth="1000px"
+        >
+          Since September 2019 the React components of the system have been open
+          sourced on Github. It was a big step into building out an open source
+          mentality in Lightspeed, as Flame was the first project to do so.
+        </Text>
+      </Box>
+      <Text
+        fontSize={["1.125rem", "1.3125rem"]}
+        lineHeight={["1.875rem", "2.1875rem"]}
+        color="#626d83"
+        maxWidth="1000px"
+      >
         <a
-          href="https://github.com/lightspeed/flame"
+          href="https://www.gatsbyjs.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Source code on Github
-        </a>
-      </p>
+        </a>{" "}
+      </Text>
     </CenterLayout>
     <Row>
       <Column flexGrow={1} alignItems="flexstart">

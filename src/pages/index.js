@@ -10,7 +10,7 @@ import { Box, Flex, Text, Heading } from "rebass"
 export default () => (
   <Layout m={["120px auto  3rem", "80px auto  3rem"]}>
     <SEO />
-    <Box mb={["100px", "100px"]}>
+    <Box mb={["100px", "160px"]} mt={["100px", "160px"]}>
       <Text
         fontSize={["38px", "74px"]}
         lineHeight={["50px", "89px"]}
