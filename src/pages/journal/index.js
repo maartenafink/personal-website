@@ -111,7 +111,7 @@ export default () => {
                         lineHeight="2.1875rem"
                         color="#626d83"
                       >
-                        Read more →
+                        Listen →
                       </Text>
                     </Box>
                   </Box>

@@ -45,6 +45,7 @@ export default () => (
       vertical="center"
       wrap
       justifyContent="space-between"
+      breakpoints={{ 900: "column" }}
     >
       <Column>
         <p className="projectheading">Company</p>
@@ -236,7 +237,7 @@ export default () => (
       </Text>
     </CenterLayout>
     <Row>
-      <Column flexGrow={1} alignItems="flexstart">
+      <Column flexGrow={1} alignItems="start">
         <p className="item">
           ← Previous Project<br></br>
           <a href="/recruitzio" rel="noopener noreferrer">
@@ -244,7 +245,7 @@ export default () => (
           </a>
         </p>
       </Column>
-      <Column flexGrow={1} alignItems="flex-end" style={{ textAlign: `right` }}>
+      <Column flexGrow={1} alignItems="end" style={{ textAlign: `right` }}>
         <p
           className="item"
           style={{ marginBottom: `150px`, marginTop: `-10px` }}
