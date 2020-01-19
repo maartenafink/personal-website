@@ -37,7 +37,7 @@ export default () => (
     </Box>
     <Row
       style={{
-        minWidth: 300,
+        minWidth: 200,
         maxWidth: 1000,
         marginBottom: `100px`,
       }}

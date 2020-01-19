@@ -13,6 +13,7 @@
     "@mkitio/gatsby-theme-password-protect": "^2.1.1",
     "babel-plugin-styled-components": "^1.10.6",
     "emotion-theming": "^10.0.19",
+    "flexbox": "^0.0.3",
     "gatsby": "^2.18.17",
     "gatsby-image": "^2.2.30",
     "gatsby-plugin-google-analytics": "^2.1.31",

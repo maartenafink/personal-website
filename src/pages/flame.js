@@ -7,6 +7,7 @@ import { Column, Row } from "simple-flexbox"
 import Box from "../components/box"
 import SEO from "../components/seo"
 import { Flex, Text, Heading } from "rebass"
+import { flexDirection } from "styled-system"
 
 export default () => (
   <Layout>
@@ -45,7 +46,6 @@ export default () => (
       vertical="center"
       wrap
       justifyContent="space-between"
-      breakpoints={{ 900: "column" }}
     >
       <Column>
         <p className="projectheading">Company</p>
