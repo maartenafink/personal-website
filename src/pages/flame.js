@@ -206,6 +206,34 @@ export default () => (
           maxWidth="920px"
           fontWeight="bold"
         >
+          Brand identity to build recognition
+        </Text>
+      </Box>
+      <Text
+        fontSize={["1.125rem", "1.3125rem"]}
+        lineHeight={["1.875rem", "2.1875rem"]}
+        color="#626d83"
+        maxWidth="1000px"
+      >
+        To encourage adoption across the company a brand identity was created
+        for Flame. The mark is build out of blocks with the colours of a flame.{" "}
+      </Text>
+    </CenterLayout>
+    <Box mb={["20px", "80px"]}>
+      <Image filename="flame-branding-1.jpg"></Image>
+    </Box>
+    <Box mb={["20px", "80px"]}>
+      <Image filename="flame-branding-2.jpg"></Image>
+    </Box>
+    <CenterLayout>
+      <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
+        <Text
+          fontSize={["30px", "40px"]}
+          lineHeight={["42px", "89px"]}
+          color="#1b202b"
+          maxWidth="920px"
+          fontWeight="bold"
+        >
           Open source
         </Text>
       </Box>
