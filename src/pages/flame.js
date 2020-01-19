@@ -164,7 +164,7 @@ export default () => (
         of users.
       </Text>
     </CenterLayout>
-    <Image filename="table-pattern.png"></Image>
+    <Image filename="table-pattern.jpg"></Image>
     <CenterLayout>
       <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
         <Text
