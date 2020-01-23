@@ -84,7 +84,7 @@ export default () => (
         maxWidth="1000px"
       >
         The design system supports every web product inside the Lightspeed
-        ecosystem. Customers can rapidly build out products with the help of a
+        ecosystem. Customers can rapidly build out solutions with the help of a
         Sketch template, React components and documentation.
       </Text>
     </CenterLayout>
@@ -135,7 +135,7 @@ export default () => (
         >
           A custom color palette has been created to support the system. It’s a
           vibrant and accessible palette to enhance the user experience across
-          the web products.
+          all of the web products.
         </Text>
       </Column>
     </Row>
@@ -158,9 +158,9 @@ export default () => (
         color="#626d83"
         maxWidth="1000px"
       >
-        Small bits of components can be built out into complex patterns. These
-        patterns are used to shape out complex layouts and serve all the needs
-        of users.
+        Small bits of components can be built out into delightful patterns.
+        These patterns are used to shape out refreshing layouts and serve all
+        the needs of users.
       </Text>
     </CenterLayout>
     <Image filename="table-pattern.jpg"></Image>
@@ -183,8 +183,8 @@ export default () => (
         maxWidth="1000px"
       >
         A custom website was built to serve all the documentation for the
-        system. It's a dedicated space for all the designers and developers to
-        find out how to create smart, reliable and consistent user experiences.
+        system. It's a dedicated space for all the product people to find out
+        how to create smart, reliable and consistent user experiences.
       </Text>
     </CenterLayout>
     <Box mb={["20px", "80px"]}>
