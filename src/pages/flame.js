@@ -264,26 +264,49 @@ export default () => (
         </a>{" "}
       </Text>
     </CenterLayout>
-    <Row>
-      <Column flexGrow={1} alignItems="start">
-        <p className="item">
-          ← Previous Project<br></br>
-          <a href="/recruitzio" rel="noopener noreferrer">
-            Recruitz.io
-          </a>
-        </p>
-      </Column>
-      <Column flexGrow={1} alignItems="end" style={{ textAlign: `right` }}>
-        <p
-          className="item"
-          style={{ marginBottom: `150px`, marginTop: `-10px` }}
+    <Box mb={["80px", "80px"]} mt={["80px", "80px"]}>
+      <Row>
+        <Column flexGrow={1} alignItems="flexstart">
+          <Text
+            fontSize={["1.125rem", "1.3125rem"]}
+            lineHeight={["1.875rem", "2.1875rem"]}
+            color="#626d83"
+          >
+            ← Previous Project
+          </Text>
+          <Text
+            fontSize={["1.125rem", "1.3125rem"]}
+            lineHeight={["1.875rem", "2.1875rem"]}
+            color="#626d83"
+          >
+            <a href="/recruitzio" rel="noopener noreferrer">
+              Recruitz.io
+            </a>
+          </Text>
+        </Column>
+        <Column
+          flexGrow={1}
+          alignItems="flex-end"
+          style={{ textAlign: `right` }}
         >
-          Next Project -><br></br>
-          <a href="/meettrainer" rel="noopener noreferrer">
-            Meet Trainer
-          </a>
-        </p>
-      </Column>
-    </Row>
+          <Text
+            fontSize={["1.125rem", "1.3125rem"]}
+            lineHeight={["1.875rem", "2.1875rem"]}
+            color="#626d83"
+          >
+            Next Project →
+          </Text>
+          <Text
+            fontSize={["1.125rem", "1.3125rem"]}
+            lineHeight={["1.875rem", "2.1875rem"]}
+            color="#626d83"
+          >
+            <a href="/meettrainer" rel="noopener noreferrer">
+              Meet Trainer
+            </a>
+          </Text>
+        </Column>
+      </Row>
+    </Box>
   </Layout>
 )

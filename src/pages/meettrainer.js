@@ -1,8 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import HeaderHome from "../components/header-home"
 import Image from "../components/image.js"
-import CenterLayout from "../components/centerlayout"
 import { Column, Row } from "simple-flexbox"
 import Box from "../components/box"
 import SEO from "../components/seo"
@@ -81,26 +79,49 @@ export default () => (
     <Box mb={["80px", "80px"]}>
       <Image filename="meet-trainer-item-4.jpg"></Image>
     </Box>
-    <Row>
-      <Column flexGrow={1} alignItems="flexstart">
-        <p className="item">
-          ← Previous Project<br></br>
-          <a href="/flame" rel="noopener noreferrer">
-            Flame
-          </a>
-        </p>
-      </Column>
-      <Column flexGrow={1} alignItems="flex-end" style={{ textAlign: `right` }}>
-        <p
-          className="item"
-          style={{ marginBottom: `150px`, marginTop: `-10px` }}
+    <Box mb={["80px", "80px"]}>
+      <Row>
+        <Column flexGrow={1} alignItems="flexstart">
+          <Text
+            fontSize={["1.125rem", "1.3125rem"]}
+            lineHeight={["1.875rem", "2.1875rem"]}
+            color="#626d83"
+          >
+            ← Previous Project
+          </Text>
+          <Text
+            fontSize={["1.125rem", "1.3125rem"]}
+            lineHeight={["1.875rem", "2.1875rem"]}
+            color="#626d83"
+          >
+            <a href="/flame" rel="noopener noreferrer">
+              Flame
+            </a>
+          </Text>
+        </Column>
+        <Column
+          flexGrow={1}
+          alignItems="flex-end"
+          style={{ textAlign: `right` }}
         >
-          Next Project -><br></br>
-          <a href="/recruitzio" rel="noopener noreferrer">
-            Recruitz.io
-          </a>
-        </p>
-      </Column>
-    </Row>
+          <Text
+            fontSize={["1.125rem", "1.3125rem"]}
+            lineHeight={["1.875rem", "2.1875rem"]}
+            color="#626d83"
+          >
+            Next Project →
+          </Text>
+          <Text
+            fontSize={["1.125rem", "1.3125rem"]}
+            lineHeight={["1.875rem", "2.1875rem"]}
+            color="#626d83"
+          >
+            <a href="/recruitzio" rel="noopener noreferrer">
+              Recruitz.io
+            </a>{" "}
+          </Text>
+        </Column>
+      </Row>
+    </Box>
   </Layout>
 )

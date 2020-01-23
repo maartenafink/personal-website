@@ -97,8 +97,8 @@ export default () => {
 
                     <Box mb="2.25rem">
                       <Text
-                        fontSize="1.3125rem"
-                        lineHeight="2.1875rem"
+                        fontSize={["1.125rem", "1.3125rem"]}
+                        lineHeight={["1.875rem", "2.1875rem"]}
                         color="#626d83"
                       >
                         {entry.excerpt}
@@ -107,8 +107,8 @@ export default () => {
 
                     <Box>
                       <Text
-                        fontSize="1.3125rem"
-                        lineHeight="2.1875rem"
+                        fontSize={["1.125rem", "1.3125rem"]}
+                        lineHeight={["1.875rem", "2.1875rem"]}
                         color="#626d83"
                       >
                         Listen →

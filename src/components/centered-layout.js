@@ -10,7 +10,7 @@ import Footer from "./footer"
 const Wrapper = styled("div")(typography, space, {
   margin: `120px auto 50px auto`,
   maxWidth: 1400,
-  padding: `0 1rem`,
+  padding: `0 1.7rem`,
 })
 
 export default ({ children }) => (
