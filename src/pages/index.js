@@ -45,11 +45,11 @@ export default () => (
           >
             <Text
               fontSize={["32px", "40px"]}
-              lineHeight={["50px", "64px"]}
+              lineHeight={["38px", "64px"]}
               color="#1b202b"
               maxWidth="920px"
               fontWeight="bold"
-              marginBottom={["20px", "20px"]}
+              marginBottom={["35px", "20px"]}
             >
               Flame design system
             </Text>
@@ -102,7 +102,7 @@ export default () => (
               color="#1b202b"
               maxWidth="920px"
               fontWeight="bold"
-              marginBottom={["20px", "20px"]}
+              marginBottom={["35px", "20px"]}
             >
               Meet Trainer
             </Text>
@@ -156,7 +156,7 @@ export default () => (
               color="#1b202b"
               maxWidth="920px"
               fontWeight="bold"
-              marginBottom={["20px", "20px"]}
+              marginBottom={["35px", "20px"]}
             >
               Recruitz.io
             </Text>
