@@ -4,8 +4,7 @@ import Layout from "../components/layout"
 import Image from "../components/image.js"
 import { Column, Row } from "simple-flexbox"
 import SEO from "../components/seo"
-import { space } from "styled-system"
-import { Box, Flex, Text, Heading } from "rebass"
+import { Box, Text } from "rebass"
 
 export default () => (
   <Layout m={["120px auto  3rem", "80px auto  3rem"]}>

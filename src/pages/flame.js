@@ -98,9 +98,8 @@ export default () => (
     >
       <Column
         style={{
-          minWidth: 596,
           minHeight: 320,
-          maxWidth: 400,
+          maxWidth: 600,
         }}
         flexGrow={1}
       >
