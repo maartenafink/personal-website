@@ -5,6 +5,7 @@ import { Column, Row } from "simple-flexbox"
 import Box from "../components/box"
 import SEO from "../components/seo"
 import { Flex, Text, Heading } from "rebass"
+import ArtDirection from "../components/ArtDirection.js"
 
 export default () => (
   <Layout>
@@ -62,22 +63,40 @@ export default () => (
       </Column>
     </Row>
     <Box mb={["20px", "80px"]}>
-      <Image filename="meet-trainer-homepage.jpg"></Image>
+      <ArtDirection>
+        <Image filename="meet-trainer-homepage-mobile.jpg"></Image>
+        <Image filename="meet-trainer-homepage.jpg"></Image>
+      </ArtDirection>
     </Box>
     <Box mb={["20px", "80px"]}>
-      <Image filename="meet-trainer-design-system.jpg"></Image>
+      <ArtDirection>
+        <Image filename="meet-trainer-mobile-1.jpg"></Image>
+        <Image filename="meet-trainer-design-system.jpg"></Image>
+      </ArtDirection>
     </Box>
     <Box mb={["20px", "80px"]}>
-      <Image filename="meet-trainer-item-1.jpg"></Image>
+      <ArtDirection>
+        <Image filename="meet-trainer-mobile-2.jpg"></Image>
+        <Image filename="meet-trainer-item-1.jpg"></Image>
+      </ArtDirection>
     </Box>
     <Box mb={["20px", "80px"]}>
-      <Image filename="meet-trainer-item-2.jpg"></Image>
+      <ArtDirection>
+        <Image filename="meet-trainer-mobile-3.jpg"></Image>
+        <Image filename="meet-trainer-item-2.jpg"></Image>
+      </ArtDirection>{" "}
     </Box>
     <Box mb={["20px", "80px"]}>
-      <Image filename="meet-trainer-item-3.jpg"></Image>
+      <ArtDirection>
+        <Image filename="meet-trainer-mobile-4.jpg"></Image>
+        <Image filename="meet-trainer-item-3.jpg"></Image>
+      </ArtDirection>{" "}
     </Box>
     <Box mb={["80px", "80px"]}>
-      <Image filename="meet-trainer-item-4.jpg"></Image>
+      <ArtDirection>
+        <Image filename="meet-trainer-mobile-5.jpg"></Image>
+        <Image filename="meet-trainer-item-4.jpg"></Image>
+      </ArtDirection>{" "}
     </Box>
     <Box mb={["80px", "80px"]}>
       <Row>
