@@ -8,6 +8,7 @@ import Box from "../components/box"
 import SEO from "../components/seo"
 import { Flex, Text, Heading } from "rebass"
 import { flexDirection } from "styled-system"
+import ArtDirection from "../components/ArtDirection.js"
 
 export default () => (
   <Layout>
@@ -63,7 +64,10 @@ export default () => (
         <p className="projectdescription">In active use</p>
       </Column>
     </Row>
-    <Image filename="flame-homepage.jpg"></Image>
+    <ArtDirection>
+      <Image filename="flame-homepage-mobile.jpg"></Image>
+      <Image filename="flame-homepage.jpg"></Image>
+    </ArtDirection>
     <CenterLayout>
       <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
         <Text
@@ -87,7 +91,10 @@ export default () => (
         Sketch template, React components and documentation.
       </Text>
     </CenterLayout>
-    <Image filename="flame-design-system-overview.jpg"></Image>
+    <ArtDirection>
+      <Image filename="design-system-mobile.jpg"></Image>
+      <Image filename="flame-design-system-overview.jpg"></Image>
+    </ArtDirection>
     <Row
       style={{ marginTop: `200px`, marginBottom: `100px` }}
       alignItems="center"
@@ -103,7 +110,10 @@ export default () => (
         flexGrow={1}
       >
         <>
-          <Image filename="color-example.jpg" />
+          <ArtDirection>
+            <Image filename="color-example-mobile.jpg" />
+            <Image filename="color-example.jpg" />
+          </ArtDirection>
         </>
       </Column>
       <Column
@@ -138,7 +148,10 @@ export default () => (
         </Text>
       </Column>
     </Row>
-    <Image filename="colors.jpg"></Image>
+    <ArtDirection>
+      <Image filename="colors-mobile.jpg" />
+      <Image filename="colors.jpg" />
+    </ArtDirection>
     <CenterLayout>
       <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
         <Text
@@ -162,7 +175,10 @@ export default () => (
         the needs of users.
       </Text>
     </CenterLayout>
-    <Image filename="table-pattern.jpg"></Image>
+    <ArtDirection>
+      <Image filename="mobile-pattern-1.jpg" />
+      <Image filename="table-pattern.jpg"></Image>
+    </ArtDirection>
     <CenterLayout>
       <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
         <Text
@@ -187,13 +203,22 @@ export default () => (
       </Text>
     </CenterLayout>
     <Box mb={["20px", "80px"]}>
-      <Image filename="design-system-documentation-1.jpg"></Image>
+      <ArtDirection>
+        <Image filename="design-system-mobile-1.jpg" />
+        <Image filename="design-system-documentation-1.jpg"></Image>
+      </ArtDirection>
     </Box>
     <Box mb={["20px", "80px"]}>
-      <Image filename="design-system-documentation-2.jpg"></Image>
+      <ArtDirection>
+        <Image filename="design-system-mobile-2.jpg" />
+        <Image filename="design-system-documentation-2.jpg"></Image>
+      </ArtDirection>
     </Box>
     <Box mb={["20px", "80px"]}>
-      <Image filename="design-system-documentation-3.jpg"></Image>
+      <ArtDirection>
+        <Image filename="design-system-mobile-3.jpg" />
+        <Image filename="design-system-documentation-3.jpg"></Image>
+      </ArtDirection>
     </Box>
     <CenterLayout>
       <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
@@ -218,10 +243,16 @@ export default () => (
       </Text>
     </CenterLayout>
     <Box mb={["20px", "80px"]}>
-      <Image filename="flame-branding-1.jpg"></Image>
+      <ArtDirection>
+        <Image filename="flame-brand-mobile-1.jpg" />
+        <Image filename="flame-branding-1.jpg"></Image>
+      </ArtDirection>
     </Box>
     <Box mb={["20px", "80px"]}>
-      <Image filename="flame-branding-2.jpg"></Image>
+      <ArtDirection>
+        <Image filename="flame-brand-mobile-2.jpg" />
+        <Image filename="flame-branding-2.jpg"></Image>
+      </ArtDirection>
     </Box>
     <CenterLayout>
       <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
