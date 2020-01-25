@@ -5,6 +5,7 @@ import Image from "../components/image.js"
 import { Column, Row } from "simple-flexbox"
 import SEO from "../components/seo"
 import { Box, Text } from "rebass"
+import ArtDirection from "../components/ArtDirection.js"
 
 export default () => (
   <Layout m={["120px auto  3rem", "80px auto  3rem"]}>
@@ -33,7 +34,10 @@ export default () => (
       </Text>
     </Box>
     <Link to="/flame/">
-      <Image filename="flame-homepage.jpg"></Image>
+      <ArtDirection>
+        <Image filename="flame-homepage-mobile.jpg"></Image>
+        <Image filename="flame-homepage.jpg"></Image>
+      </ArtDirection>
       <Box mb={["40px", "160px"]} mt={["20px", "40px"]}>
         <Row alignItems="baseline" wrap justifyContent="space-between">
           <Column
@@ -86,7 +90,10 @@ export default () => (
       </Box>
     </Link>
     <Link to="/meettrainer/">
-      <Image filename="meet-trainer-homepage.jpg"></Image>
+      <ArtDirection>
+        <Image filename="meet-trainer-homepage-mobile.jpg"></Image>
+        <Image filename="meet-trainer-homepage.jpg"></Image>
+      </ArtDirection>
       <Box mb={["40px", "160px"]} mt={["20px", "40px"]}>
         <Row alignItems="baseline" wrap justifyContent="space-between">
           <Column
@@ -140,7 +147,10 @@ export default () => (
       </Box>
     </Link>
     <Link to="/recruitzio/">
-      <Image filename="recruitz-homepage.jpg"></Image>
+      <ArtDirection>
+        <Image filename="recruitz-homepage-mobile.jpg"></Image>
+        <Image filename="recruitz-homepage.jpg"></Image>
+      </ArtDirection>
       <Box mb={["40px", "160px"]} mt={["20px", "40px"]}>
         <Row alignItems="baseline" wrap justifyContent="space-between">
           <Column
