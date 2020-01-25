@@ -7,6 +7,7 @@ import { Column, Row } from "simple-flexbox"
 import Box from "../components/box"
 import SEO from "../components/seo"
 import { Flex, Text, Heading } from "rebass"
+import ArtDirection from "../components/ArtDirection.js"
 
 export default () => (
   <Layout>
@@ -63,7 +64,10 @@ export default () => (
         <p className="projectdescription">Rebranded to Wonderkind.com</p>
       </Column>
     </Row>
-    <Image filename="recruitz-homepage.jpg"></Image>
+    <ArtDirection>
+      <Image filename="recruitz-homepage-mobile.jpg"></Image>
+      <Image filename="recruitz-homepage.jpg"></Image>
+    </ArtDirection>
     <CenterLayout>
       <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
         <Text
@@ -86,7 +90,10 @@ export default () => (
         vibrant and bold website to draw attention towards possible customers.
       </Text>
     </CenterLayout>
-    <Image filename="recruitz-item-1.jpg"></Image>
+    <ArtDirection>
+      <Image filename="recruitz-mobile-1.jpg"></Image>
+      <Image filename="recruitz-item-1.jpg"></Image>
+    </ArtDirection>
     <CenterLayout>
       <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
         <Text
@@ -111,7 +118,10 @@ export default () => (
       </Text>
     </CenterLayout>
     <Box marginBottom="80px">
-      <Image filename="recruitz-item-2.jpg"></Image>
+      <ArtDirection>
+        <Image filename="recruitz-mobile-2.jpg"></Image>
+        <Image filename="recruitz-item-2.jpg"></Image>
+      </ArtDirection>
     </Box>
     <CenterLayout>
       <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
@@ -137,7 +147,10 @@ export default () => (
         vacancy.
       </Text>
     </CenterLayout>
-    <Image filename="recruitz-item-3.jpg"></Image>
+    <ArtDirection>
+      <Image filename="recruitz-mobile-3.jpg"></Image>
+      <Image filename="recruitz-item-3.jpg"></Image>
+    </ArtDirection>
     <CenterLayout>
       <Box mb={["15px", "0px"]} mt={["100px", "160px"]}>
         <Text

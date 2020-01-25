@@ -285,7 +285,7 @@ export default () => (
         maxWidth="1000px"
       >
         <a
-          href="https://www.gatsbyjs.org/"
+          href="https://github.com/lightspeed"
           target="_blank"
           rel="noopener noreferrer"
         >
