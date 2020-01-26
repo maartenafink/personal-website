@@ -37,33 +37,62 @@ export default () => (
         consistent user experiences.
       </Text>
     </Box>
-    <Row
-      style={{
-        maxWidth: 1000,
-        marginBottom: `100px`,
-      }}
-      alignItems="center"
-      vertical="center"
-      wrap
-      justifyContent="space-between"
-    >
-      <Column>
-        <p className="projectheading">Company</p>
-        <p className="projectdescription">Lightspeed POS</p>
-      </Column>
-      <Column>
-        <p className="projectheading">Role</p>
-        <p className="projectdescription">Product Designer</p>
-      </Column>
-      <Column>
-        <p className="projectheading">Timeline</p>
-        <p className="projectdescription">2017 — Present</p>
-      </Column>
-      <Column>
-        <p className="projectheading">Status</p>
-        <p className="projectdescription">In active use</p>
-      </Column>
-    </Row>
+    <ArtDirection>
+      <Row
+        style={{
+          maxWidth: 200,
+          marginBottom: `60px`,
+        }}
+        alignItems="left"
+        vertical="left"
+        wrap
+        justifyContent="space-between"
+      >
+        <Column>
+          <p className="projectheading">Company</p>
+          <p className="projectdescription">Lightspeed POS</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Role</p>
+          <p className="projectdescription">Product Designer</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Timeline</p>
+          <p className="projectdescription">2017 — Present</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Status</p>
+          <p className="projectdescription">In active use</p>
+        </Column>
+      </Row>
+      <Row
+        style={{
+          maxWidth: 1000,
+          marginBottom: `100px`,
+        }}
+        alignItems="center"
+        vertical="center"
+        wrap
+        justifyContent="space-between"
+      >
+        <Column>
+          <p className="projectheading">Company</p>
+          <p className="projectdescription">Lightspeed POS</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Role</p>
+          <p className="projectdescription">Product Designer</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Timeline</p>
+          <p className="projectdescription">2017 — Present</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Status</p>
+          <p className="projectdescription">In active use</p>
+        </Column>
+      </Row>
+    </ArtDirection>
     <ArtDirection>
       <Image filename="flame-homepage-mobile.jpg"></Image>
       <Image filename="flame-homepage.jpg"></Image>

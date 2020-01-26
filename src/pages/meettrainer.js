@@ -34,34 +34,62 @@ export default () => (
         for their target audience.
       </Text>
     </Box>
-    <Row
-      style={{
-        minWidth: 300,
-        maxWidth: 1000,
-        marginBottom: `100px`,
-      }}
-      alignItems="center"
-      vertical="center"
-      wrap
-      justifyContent="space-between"
-    >
-      <Column>
-        <p className="projectheading">Company</p>
-        <p className="projectdescription">Meet Trainer</p>
-      </Column>
-      <Column>
-        <p className="projectheading">Role</p>
-        <p className="projectdescription">Freelance Designer</p>
-      </Column>
-      <Column>
-        <p className="projectheading">Timeline</p>
-        <p className="projectdescription">2018 — 2019</p>
-      </Column>
-      <Column>
-        <p className="projectheading">Status</p>
-        <p className="projectdescription">In development</p>
-      </Column>
-    </Row>
+    <ArtDirection>
+      <Row
+        style={{
+          maxWidth: 200,
+          marginBottom: `60px`,
+        }}
+        alignItems="left"
+        vertical="left"
+        wrap
+        justifyContent="space-between"
+      >
+        <Column>
+          <p className="projectheading">Company</p>
+          <p className="projectdescription">Meet Trainer</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Role</p>
+          <p className="projectdescription">Freelance Designer</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Timeline</p>
+          <p className="projectdescription">2018 — 2019</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Status</p>
+          <p className="projectdescription">In development</p>
+        </Column>
+      </Row>
+      <Row
+        style={{
+          maxWidth: 1000,
+          marginBottom: `100px`,
+        }}
+        alignItems="center"
+        vertical="center"
+        wrap
+        justifyContent="space-between"
+      >
+        <Column>
+          <p className="projectheading">Company</p>
+          <p className="projectdescription">Meet Trainer</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Role</p>
+          <p className="projectdescription">Freelance Designer</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Timeline</p>
+          <p className="projectdescription">2018 — 2019</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Status</p>
+          <p className="projectdescription">In development</p>
+        </Column>
+      </Row>
+    </ArtDirection>
     <Box mb={["20px", "80px"]}>
       <ArtDirection>
         <Image filename="meet-trainer-homepage-mobile.jpg"></Image>

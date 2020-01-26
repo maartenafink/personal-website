@@ -36,34 +36,63 @@ export default () => (
         output, back-end dashboard and the onboarding for new customers.
       </Text>
     </Box>
-    <Row
-      style={{
-        minWidth: 200,
-        maxWidth: 1000,
-        marginBottom: `100px`,
-      }}
-      alignItems="center"
-      vertical="center"
-      wrap
-      justifyContent="space-between"
-    >
-      <Column>
-        <p className="projectheading">Company</p>
-        <p className="projectdescription">Recruitz.io</p>
-      </Column>
-      <Column>
-        <p className="projectheading">Role</p>
-        <p className="projectdescription">Designer</p>
-      </Column>
-      <Column>
-        <p className="projectheading">Timeline</p>
-        <p className="projectdescription">2015 — 2017</p>
-      </Column>
-      <Column>
-        <p className="projectheading">Status</p>
-        <p className="projectdescription">Rebranded to Wonderkind.com</p>
-      </Column>
-    </Row>
+    <ArtDirection>
+      <Row
+        style={{
+          maxWidth: 150,
+          marginBottom: `60px`,
+        }}
+        alignItems="left"
+        vertical="left"
+        wrap
+        justifyContent="space-between"
+      >
+        <Column>
+          <p className="projectheading">Company</p>
+          <p className="projectdescription">Recruitz.io</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Role</p>
+          <p className="projectdescription">Designer</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Timeline</p>
+          <p className="projectdescription">2015 — 2017</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Status</p>
+          <p className="projectdescription">Rebranded to Wonderkind.com</p>
+        </Column>
+      </Row>
+      <Row
+        style={{
+          maxWidth: 1000,
+          marginBottom: `100px`,
+        }}
+        alignItems="center"
+        vertical="center"
+        wrap
+        justifyContent="space-between"
+      >
+        <Column>
+          <p className="projectheading">Company</p>
+          <p className="projectdescription">Recruitz.io</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Role</p>
+          <p className="projectdescription">Designer</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Timeline</p>
+          <p className="projectdescription">2015 — 2017</p>
+        </Column>
+        <Column>
+          <p className="projectheading">Status</p>
+          <p className="projectdescription">Rebranded to Wonderkind.com</p>
+        </Column>
+      </Row>
+    </ArtDirection>
+
     <ArtDirection>
       <Image filename="recruitz-homepage-mobile.jpg"></Image>
       <Image filename="recruitz-homepage.jpg"></Image>
