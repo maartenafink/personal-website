@@ -124,7 +124,7 @@ export default () => (
         flexGrow={1}
       >
         <ArtDirection>
-          <Box paddingRight="60px" paddingLeft="60px">
+          <Box width="250px" margin="0 auto" paddingRight="25px">
             <Image filename="me-mobile.jpg"></Image>
           </Box>
           <Box>
