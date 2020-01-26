@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import { Box, Flex, Text, Heading } from "rebass"
+import ArtDirection from "../components/ArtDirection.js"
 
 export default () => (
   <Layout>
@@ -12,7 +13,7 @@ export default () => (
       style={{ marginTop: `140px`, marginBottom: `120px` }}
       alignItems="center"
       vertical="center"
-      wrap
+      wrapReverse
       justifyContent="space-between"
     >
       <Column
@@ -122,11 +123,19 @@ export default () => (
         }}
         flexGrow={1}
       >
-        <Image filename="me.jpg" />
-        <p className="me" style={{ marginTop: `30px`, marginLeft: `25px` }}>
-          Pictures taken in the{" "}
-          <a href="https://www.colorfactory.co/nyc">Color Factory</a>, New York
-        </p>
+        <ArtDirection>
+          <Box paddingRight="60px" paddingLeft="60px">
+            <Image filename="me-mobile.jpg"></Image>
+          </Box>
+          <Box>
+            <Image filename="me.jpg" />
+            <p className="me" style={{ marginTop: `30px`, marginLeft: `25px` }}>
+              Pictures taken in the{" "}
+              <a href="https://www.colorfactory.co/nyc">Color Factory</a>, New
+              York
+            </p>
+          </Box>
+        </ArtDirection>
       </Column>
     </Row>
   </Layout>
