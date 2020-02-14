@@ -4,7 +4,7 @@ import Image from "../components/image.js"
 import { Column, Row } from "simple-flexbox"
 import Box from "../components/box"
 import SEO from "../components/seo"
-import { Flex, Text, Heading } from "rebass"
+import { Text } from "rebass"
 import ArtDirection from "../components/ArtDirection.js"
 
 export default () => (

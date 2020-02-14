@@ -3,7 +3,7 @@ import { Column, Row } from "simple-flexbox"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import { Box, Flex, Text, Heading } from "rebass"
+import { Box, Text } from "rebass"
 import ArtDirection from "../components/ArtDirection.js"
 
 export default () => (

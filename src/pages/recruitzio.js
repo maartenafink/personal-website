@@ -1,12 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-import HeaderHome from "../components/header-home"
 import Image from "../components/image.js"
 import CenterLayout from "../components/centerlayout"
 import { Column, Row } from "simple-flexbox"
 import Box from "../components/box"
 import SEO from "../components/seo"
-import { Flex, Text, Heading } from "rebass"
+import { Text } from "rebass"
 import ArtDirection from "../components/ArtDirection.js"
 
 export default () => (

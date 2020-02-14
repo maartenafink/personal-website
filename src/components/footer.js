@@ -19,10 +19,10 @@ export default ({ children }) => (
   <FooterWrapper>
     <Divider />
     <Row>
-      <Column flexGrow={1} alignItems="flexstart">
+      <Column flexGrow={1} alignItems="start">
         Copyright © {new Date().getFullYear()}, Maarten Afink
       </Column>
-      <Column flexGrow={1} alignItems="flex-end">
+      <Column flexGrow={1} alignItems="end">
         Email at hey@maarten.im
       </Column>
     </Row>

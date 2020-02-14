@@ -59,7 +59,11 @@ export default () => {
       </Link>
       <HeaderList>
         {menuItems.map(({ url, title }, i) => (
-          <HeaderListLink last={i === menuItems.length - 1} to={url}>
+          <HeaderListLink
+            key={title}
+            last={i === menuItems.length - 1}
+            to={url}
+          >
             {title}
           </HeaderListLink>
         ))}
